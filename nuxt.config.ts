@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui"],
   colorMode: {
     preference: 'light'
+  },
+  imports: {
+    dirs: [
+      'types'
+    ]
   }
 })
